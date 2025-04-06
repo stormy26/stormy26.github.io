@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Senshine Restaurant</title>
+        <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/4287/4287725.png">
+    </head>
+    <body>
+        <header>
+            <section style="text-align: center;">
+                <img id="header-img" src="https://cdn-icons-png.flaticon.com/512/4287/4287725.png" alt="" style="width: 100px;">
+                <h1>Senshine Restaurant</h1>
+            </section>
+
+            <nav style="text-align: center;">
+                <a href="#menu">Menu</a>
+                <a href="#order-form">Order Form</a>
+            </nav>
+
+        </header>
+
+        <main>
+            <section id="menu">
+                <article style="text-align: center;">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2927/2927347.png" alt="" style="width: 100px;">
+                    <h3>Chicken Salad</h3>
+                    <p>
+                        This is a classic salad mixed with fresh vegetables that will surely give you all the nutrients you need!<br>
+                        Sure chicken meat may be white but with the combination of our secret sauce and the vegetables, this is surely a treat!
+                    </p>
+                </article>
+                <article style="text-align: center;">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5235/5235253.png" alt="" style="width: 100px;">
+                    <h3>Ham Sandwich with Egg</h3>
+                    <p>
+                        What better way to start the day but with a ham sandwich and a sunny side up egg!<br>
+                        When you finished your meal, your day will be as sunny as our egg!
+                    </p>
+                </article>
+                <article style="text-align: center;">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3703/3703377.png" alt="" style="width: 100px;">
+                    <h3>Burger and Fries</h3>
+                    <p>
+                        Everyone deserves a cheat day and we are here to spoil you for your hard work.<br>
+                        Why not treat yourself with a good old fashioned burger and fries! Promise we won't tell.
+                    </p>
+                </article>
+            </section>
+
+            <section id="order-form">
+                <form>
+                    <article style="text-align: center;">
+                        <hr>
+                        <!-- for Chicken Salad -->
+                        <h2 style="text-align: center;">Chicken Salad</h2>
+                        <label for="numOfOrders">
+                            Number of Orders for Chicken Salad
+                            <input id="numOfOrders" type="number" min="0">
+                        </label>
+                        <br>
+
+                        <h3>What sides would you like?</h3>
+                        <label>Buttered Corn<input type="radio" name="option"></label>
+                        <label>Fish Sticks<input type="radio" name="option"></label>
+                        <label>Crab Sticks<input type="radio" name="option"></label>
+                        <br>
+
+                        <h3>Any special request?</h3>
+                        <textarea id="requests" type="textarea" row="6" cols="40" placeholder="Write your review here"></textarea>
+
+                    </article>
+                    <article style="text-align: center;">
+                        <hr>
+                        <!-- for Ham Sandwich -->
+                        <h2 style="text-align: center;">Ham Sandwich with Egg</h2>
+                        <label for="numOfOrders">
+                            Number of Orders for Ham Sandwich with Egg
+                            <input id="numOfOrders" type="number" min="0">
+                        </label>
+                        <br>
+
+                        <h3>What sides would you like?</h3>
+                        <label>Buttered Corn<input type="radio" name="option"></label>
+                        <label>Steamed Veggies<input type="radio" name="option"></label>
+                        <label>Mashed Potato<input type="radio" name="option"></label>
+                        <br>
+
+                        <h3>Any special request?</h3>
+                        <textarea id="requests" type="textarea" row="6" cols="40" placeholder="Write your review here"></textarea>
+
+                    </article>
+
+                    <article style="text-align: center;">
+                        <hr>
+                        <!-- for Burger and Fries -->
+                        <h2 style="text-align: center;">Burger and Fries</h2>
+                        <label for="numOfOrders">
+                            Number of Orders for Burger and Fries
+                            <input id="numOfOrders" type="number" min="0">
+                        </label>
+                        <br>
+
+                        <h3>What sides would you like?</h3>
+                        <label>Rootbeer Float<input type="radio" name="option"></label>
+                        <label>Salad<input type="radio" name="option"></label>
+                        <br>
+
+                        <h3>Any special request?</h3>
+                        <textarea id="requests" type="textarea" row="6" cols="40" placeholder="Write your review here"></textarea>
+
+                    </article>
+
+                    <article style="text-align: center;">
+                        <br>
+                        <!-- Submit button -->
+                        <button type="submit">Go to checkout</button>
+                    </article>
+                </form>
+            </section>
+        </main>
+
+        <footer style="text-align: center;">
+            <h5>Made with love by corgitor</h5>
+        </footer>
+        
+    </body>
+</html>
