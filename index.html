@@ -7,7 +7,7 @@
     <body>
         <header>
             <section style="text-align: center;">
-                <img id="header-img" src="https://cdn-icons-png.flaticon.com/512/4287/4287725.png" alt="" style="width: 100px;">
+                <img id="header-img" src="https://cdn-icons-png.flaticon.com/512/4287/4287725.png" alt="Restaurant Logo" style="width: 100px;">
                 <h1>Senshine Restaurant</h1>
             </section>
 
@@ -21,24 +21,24 @@
         <main>
             <section id="menu">
                 <article style="text-align: center;">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2927/2927347.png" alt="" style="width: 100px;">
-                    <h3>Chicken Salad</h3>
+                    <img src="https://cdn-icons-png.flaticon.com/512/2927/2927347.png" alt="Chicken Salad Image" style="width: 100px;">
+                    <h3>Chicken Salad - $8</h3>
                     <p>
                         This is a classic salad mixed with fresh vegetables that will surely give you all the nutrients you need!<br>
                         Sure chicken meat may be white but with the combination of our secret sauce and the vegetables, this is surely a treat!
                     </p>
                 </article>
                 <article style="text-align: center;">
-                    <img src="https://cdn-icons-png.flaticon.com/512/5235/5235253.png" alt="" style="width: 100px;">
-                    <h3>Ham Sandwich with Egg</h3>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5235/5235253.png" alt="Ham Sandwich with Egg Image" style="width: 100px;">
+                    <h3>Ham Sandwich with Egg - <em>$5 Special Promo!</em></h3>
                     <p>
                         What better way to start the day but with a ham sandwich and a sunny side up egg!<br>
                         When you finished your meal, your day will be as sunny as our egg!
                     </p>
                 </article>
                 <article style="text-align: center;">
-                    <img src="https://cdn-icons-png.flaticon.com/512/3703/3703377.png" alt="" style="width: 100px;">
-                    <h3>Burger and Fries</h3>
+                    <img src="https://cdn-icons-png.flaticon.com/512/3703/3703377.png" alt="Burger and Fries Image" style="width: 100px;">
+                    <h3>Burger and Fries - $10</h3>
                     <p>
                         Everyone deserves a cheat day and we are here to spoil you for your hard work.<br>
                         Why not treat yourself with a good old fashioned burger and fries! Promise we won't tell.
@@ -52,40 +52,40 @@
                         <hr>
                         <!-- for Chicken Salad -->
                         <h2 style="text-align: center;">Chicken Salad</h2>
-                        <label for="numOfOrders">
+                        <label for="numOfOrders-chicken">
                             Number of Orders for Chicken Salad
-                            <input id="numOfOrders" type="number" min="0">
+                            <input id="numOfOrders-chicken" type="number" min="0">
                         </label>
                         <br>
 
                         <h3>What sides would you like?</h3>
-                        <label>Buttered Corn<input type="radio" name="option"></label>
-                        <label>Fish Sticks<input type="radio" name="option"></label>
-                        <label>Crab Sticks<input type="radio" name="option"></label>
+                        <label>Buttered Corn<input type="radio" name="side-chicken" value="Buttered Corn"></label>
+                        <label>Fish Sticks<input type="radio" name="side-chicken" value="Fish Sticks"></label>
+                        <label>Crab Sticks<input type="radio" name="side-chicken" value="Crab Sticks"></label>
                         <br>
 
-                        <h3>Any special request?</h3>
-                        <textarea id="requests" type="textarea" row="6" cols="40" placeholder="Write your review here"></textarea>
+                        <label for="requests-chicken"><h3>Any special requests?</h3></label>
+                        <textarea id="requests-chicken" type="textarea" row="6" cols="40" placeholder="Write your review here"></textarea>
 
                     </article>
                     <article style="text-align: center;">
                         <hr>
                         <!-- for Ham Sandwich -->
                         <h2 style="text-align: center;">Ham Sandwich with Egg</h2>
-                        <label for="numOfOrders">
+                        <label for="numOfOrders-ham">
                             Number of Orders for Ham Sandwich with Egg
-                            <input id="numOfOrders" type="number" min="0">
+                            <input id="numOfOrders-ham" type="number" min="0">
                         </label>
                         <br>
 
                         <h3>What sides would you like?</h3>
-                        <label>Buttered Corn<input type="radio" name="option"></label>
-                        <label>Steamed Veggies<input type="radio" name="option"></label>
-                        <label>Mashed Potato<input type="radio" name="option"></label>
+                        <label>Buttered Corn<input type="radio" name="side-ham" value="Buttered Corn"></label>
+                        <label>Steamed Veggies<input type="radio" name="side-ham" value="Steamed Veggies"></label>
+                        <label>Mashed Potato<input type="radio" name="side-ham" value="Mashed Potato"></label>
                         <br>
 
-                        <h3>Any special request?</h3>
-                        <textarea id="requests" type="textarea" row="6" cols="40" placeholder="Write your review here"></textarea>
+                        <label for="requests-ham"><h3>Any special requests?</h3></label>
+                        <textarea id="requests-ham" type="textarea" row="6" cols="40" placeholder="Write your review here"></textarea>
 
                     </article>
 
@@ -93,19 +93,19 @@
                         <hr>
                         <!-- for Burger and Fries -->
                         <h2 style="text-align: center;">Burger and Fries</h2>
-                        <label for="numOfOrders">
+                        <label for="numOfOrders-burger">
                             Number of Orders for Burger and Fries
-                            <input id="numOfOrders" type="number" min="0">
+                            <input id="numOfOrders-burger" type="number" min="0">
                         </label>
                         <br>
 
                         <h3>What sides would you like?</h3>
-                        <label>Rootbeer Float<input type="radio" name="option"></label>
-                        <label>Salad<input type="radio" name="option"></label>
+                        <label>Rootbeer Float<input type="radio" name="side-burger" value="Rootbeer Float"></label>
+                        <label>Salad<input type="radio" name="side-burger" value="Salad"></label>
                         <br>
 
-                        <h3>Any special request?</h3>
-                        <textarea id="requests" type="textarea" row="6" cols="40" placeholder="Write your review here"></textarea>
+                        <label for="requests-burger"><h3>Any special requests?</h3></label>
+                        <textarea id="requests-burger" type="textarea" row="6" cols="40" placeholder="Write your review here"></textarea>
 
                     </article>
 
