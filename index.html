@@ -33,7 +33,7 @@
                     <h3>Ham Sandwich with Egg - <em>$5 Special Promo!</em></h3>
                     <p>
                         What better way to start the day but with a ham sandwich and a sunny side up egg!<br>
-                        When you finished your meal, your day will be as sunny as our egg!
+                        When you finish your meal, your day will be as sunny as our egg!
                     </p>
                 </article>
                 <article style="text-align: center;">
@@ -59,13 +59,24 @@
                         <br>
 
                         <h3>What sides would you like?</h3>
-                        <label>Buttered Corn<input type="radio" name="side-chicken" value="Buttered Corn"></label>
-                        <label>Fish Sticks<input type="radio" name="side-chicken" value="Fish Sticks"></label>
-                        <label>Crab Sticks<input type="radio" name="side-chicken" value="Crab Sticks"></label>
+                        <label for="chicken-corn">
+                            Buttered Corn
+                            <input type="radio" id="chicken-corn" name="side-chicken" value="Buttered Corn">
+                        </label>
+                        <label for="chicken-fish">
+                            Fish Sticks
+                            <input type="radio" id="chicken-fish" name="side-chicken" value="Fish Sticks">
+                        </label>
+                        <label for="chicken-crab">
+                            Crab Sticks
+                            <input type="radio" id="chicken-crab" name="side-chicken" value="Crab Sticks">
+                        </label>
                         <br>
 
-                        <label for="requests-chicken"><h3>Any special requests?</h3></label>
-                        <textarea id="requests-chicken" type="textarea" row="6" cols="40" placeholder="Write your review here"></textarea>
+                        <label for="requests-chicken">
+                            <h3>Any special requests?</h3>
+                        </label>
+                        <textarea id="requests-chicken" rows="6" cols="40" placeholder="Write your review here"></textarea>
 
                     </article>
                     <article style="text-align: center;">
@@ -79,13 +90,24 @@
                         <br>
 
                         <h3>What sides would you like?</h3>
-                        <label>Buttered Corn<input type="radio" name="side-ham" value="Buttered Corn"></label>
-                        <label>Steamed Veggies<input type="radio" name="side-ham" value="Steamed Veggies"></label>
-                        <label>Mashed Potato<input type="radio" name="side-ham" value="Mashed Potato"></label>
+                        <label for="ham-corn">
+                            Buttered Corn
+                            <input type="radio" id="ham-corn" name="side-ham" value="Buttered Corn">
+                        </label>
+                        <label for="ham-veggies">
+                            Steamed Veggies
+                            <input type="radio" id="ham-veggies" name="side-ham" value="Steamed Veggies">
+                        </label>
+                        <label for="ham-potato">
+                            Mashed Potato
+                            <input type="radio" id="ham-potato" name="side-ham" value="Mashed Potato">
+                        </label>
                         <br>
 
-                        <label for="requests-ham"><h3>Any special requests?</h3></label>
-                        <textarea id="requests-ham" type="textarea" row="6" cols="40" placeholder="Write your review here"></textarea>
+                        <label for="requests-ham">
+                            <h3>Any special requests?</h3>
+                        </label>
+                        <textarea id="requests-ham" rows="6" cols="40" placeholder="Write your review here"></textarea>
 
                     </article>
 
@@ -100,12 +122,20 @@
                         <br>
 
                         <h3>What sides would you like?</h3>
-                        <label>Rootbeer Float<input type="radio" name="side-burger" value="Rootbeer Float"></label>
-                        <label>Salad<input type="radio" name="side-burger" value="Salad"></label>
+                        <label for="burger-float">
+                            Rootbeer Float
+                            <input type="radio" id="burger-float" name="side-burger" value="Rootbeer Float">
+                        </label>
+                        <label for="burger-salad">
+                            Salad
+                            <input type="radio" id="burger-salad" name="side-burger" value="Salad">
+                        </label>
                         <br>
 
-                        <label for="requests-burger"><h3>Any special requests?</h3></label>
-                        <textarea id="requests-burger" type="textarea" row="6" cols="40" placeholder="Write your review here"></textarea>
+                        <label for="requests-burger">
+                            <h3>Any special requests?</h3>
+                        </label>
+                        <textarea id="requests-burger" rows="6" cols="40" placeholder="Write your review here"></textarea>
 
                     </article>
 
